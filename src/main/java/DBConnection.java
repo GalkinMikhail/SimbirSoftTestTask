@@ -7,7 +7,7 @@ public class DBConnection {
     private static final Logger LOGGER = Logger.getLogger(DBConnection.class);
 
     public static final String USER_NAME = "root";
-    public static final String PASSWORD = "anobys335";
+    public static final String PASSWORD = "123123";
     public static final String URL = "jdbc:mysql://localhost:3306/statistics_db";
     public Connection connection;
     public DBConnection(){
