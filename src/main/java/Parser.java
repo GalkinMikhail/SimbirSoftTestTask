@@ -27,14 +27,6 @@ public class Parser {
             String line;
             while ((line = bufferedReader.readLine()) != null){
                 String[] words = line.split(separatorsString);
-                for (int i = 0; i < words.length; i++) {
-                    if (words[i].contains("\"")){
-                        words[i] = words[i].replaceAll("\"","");
-                    }
-                    if (words[i].contains(",")){
-                        words[i] = words[i].replaceAll(",","");
-                    }
-                }
                 for (String word : words){
                     if ("".equals(word)){
                         continue;
