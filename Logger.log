@@ -1,0 +1,7 @@
+2021-11-08 00:51:30 ERROR Parser:66 - Wrong URL
+java.net.MalformedURLException: no protocol: 42342
+	at java.base/java.net.URL.<init>(URL.java:672)
+	at java.base/java.net.URL.<init>(URL.java:568)
+	at java.base/java.net.URL.<init>(URL.java:515)
+	at Parser.getPage(Parser.java:72)
+	at Parser.main(Parser.java:23)
